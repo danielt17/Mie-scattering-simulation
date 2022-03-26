@@ -94,14 +94,14 @@ M=∇×(rψ),N=(∇×M)/k
 
 Finally, the full solution of scattering types:
 Incident plane wave (superscript (1) means that in the radial part of the function ψ are spherical Bessel functions of the first kind):
-E_inc=E_0 ∑_(n=1)^∞▒〖i^n⋅(2n+1)/n(n+1)  (M_o1n^((1) ) (k,r)-iN_e1n^((1) ) (k,r)) 〗
-H_inc=-k/ωμ E_0 ∑_(n=1)^∞▒〖i^n⋅(2n+1)/n(n+1)  (M_e1n^((1) ) (k,r)+iN_o1n^((1) ) (k,r)) 〗
+E_inc=E_0 ∑_(n=1)^∞〖i^n⋅(2n+1)/n(n+1)  (M_o1n^((1) ) (k,r)-iN_e1n^((1) ) (k,r)) 〗
+H_inc=-k/ωμ E_0 ∑_(n=1)^∞〖i^n⋅(2n+1)/n(n+1)  (M_e1n^((1) ) (k,r)+iN_o1n^((1) ) (k,r)) 〗
 The scattered fields (superscript (3) means that in the radial part of the function ψ are spherical Hankel functions of the first kind):
-E_s=E_0 ∑_(n=1)^∞▒〖i^n⋅(2n+1)/n(n+1)  (ia_n N_e1n^((3) ) (k,r)-b_n M_o1n^((3) ) (k,r)) 〗
-H_s=k/ωμ E_0 ∑_(n=1)^∞▒〖i^n⋅(2n+1)/n(n+1)  (a_n M_e1n^((3) ) (k,r)+ib_n N_o1n^((3) ) (k,r)) 〗
+E_s=E_0 ∑_(n=1)^∞〖i^n⋅(2n+1)/n(n+1)  (ia_n N_e1n^((3) ) (k,r)-b_n M_o1n^((3) ) (k,r)) 〗
+H_s=k/ωμ E_0 ∑_(n=1)^∞〖i^n⋅(2n+1)/n(n+1)  (a_n M_e1n^((3) ) (k,r)+ib_n N_o1n^((3) ) (k,r)) 〗
 The internal fields:
-E_int=E_0 ∑_(n=1)^∞▒〖i^n⋅(2n+1)/n(n+1)  (-id_n N_e1n^((1) ) (k_1,r)+c_n M_o1n^((1) ) (k_1,r)) 〗
-H_int=-k_1/(ωμ_1 ) E_0 ∑_(n=1)^∞▒〖i^n⋅(2n+1)/n(n+1)  (-id_n N_e1n^((1) ) (k_1,r)+c_n M_o1n^((1) ) (k_1,r)) 〗
+E_int=E_0 ∑_(n=1)^∞〖i^n⋅(2n+1)/n(n+1)  (-id_n N_e1n^((1) ) (k_1,r)+c_n M_o1n^((1) ) (k_1,r)) 〗
+H_int=-k_1/(ωμ_1 ) E_0 ∑_(n=1)^∞〖i^n⋅(2n+1)/n(n+1)  (-id_n N_e1n^((1) ) (k_1,r)+c_n M_o1n^((1) ) (k_1,r)) 〗
 Where k=ω/c n and k_1=ω/c n_1 where the former is the wave vector outside the particle and the latter is the wave vector inside the particle. n and n_1 are the refractive indices of the medium and the particle. Applying the boundary conditions and finite field inside the center of the particle we get.
 a_n (ω)=(μn_1^2 [ρj_n (ρ)]^' j_n (ρ_1 )-μ_1 n^2 [ρ_1 j_n (ρ_1 )]^' j_n (ρ))/(μn_1^2 [ρj_n (ρ)]^' j_n (ρ_1 )-μ_1 n^2 [ρ_1 j_n (ρ_1 )]^' h_n (ρ) )
 b_n (ω)=(μ_1 [ρj_n (ρ)]^' j_n (ρ_1 )-μ[ρ_1 j_n (ρ_1 )]^' j_n (ρ))/(μ_1 [ρj_n (ρ)]^' j_n (ρ_1 )-μ[ρ_1 j_n (ρ_1 )]^' h_n (ρ) )
@@ -112,10 +112,10 @@ This is the complete solution of Mie scattering problem for a homogenous sphere.
 
 We don’t measure the EM waves, but measure different values of cross sections of which we have three:  Extinction (Scattered + absorbed) Q_e, scattering Q_s and absorption Q_a. Each of the efficiencies are defined by their respective cross sections Q_i=σ_i/(πa^2 ).
 Each of them is defined in the following way:
-W_i=-∫_A▒〖S_i⋅e ̂_r  dA〗→C_i=W_i/I_i 
+W_i=-∫_A〖S_i⋅e ̂_r  dA〗→C_i=W_i/I_i 
 Where S_i is the poynting vector.
-C_sca=2π/k^2  ∑_(n=1)^∞▒(2n+1)(|a_n |^2+|b_n |^2 ) 
-C_ext=2π/k^2  ∑_(n=1)^∞▒(2n+1)Re(a_n+b_n ) 
+C_sca=2π/k^2  ∑_(n=1)^∞(2n+1)(|a_n |^2+|b_n |^2 ) 
+C_ext=2π/k^2  ∑_(n=1)^∞(2n+1)Re(a_n+b_n ) 
 
 
 ![Mie scattering](https://user-images.githubusercontent.com/60748408/160254752-697d2ff2-cedb-479e-8854-5f61ec6e346d.png)
