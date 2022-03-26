@@ -118,7 +118,9 @@ C_sca=2π/k^2  ∑_(n=1)^∞▒(2n+1)(|a_n |^2+|b_n |^2 )
 C_ext=2π/k^2  ∑_(n=1)^∞▒(2n+1)Re(a_n+b_n ) 
 
 
-![Mie scattering](https://user-images.githubusercontent.com/60748408/160252081-679808dd-4a3c-4e34-8ee5-5e46f70c17a0.png)
+![Mie scattering](https://user-images.githubusercontent.com/60748408/160254752-697d2ff2-cedb-479e-8854-5f61ec6e346d.png)
 
+![Asymmetry coefficent](https://user-images.githubusercontent.com/60748408/160254754-45fcd341-b44f-4871-908a-9d99665601f0.png)
 
-![Asymmetry coefficent](https://user-images.githubusercontent.com/60748408/160252082-92271390-8dfe-4def-8f79-ce9726f60b4c.png)
+![RCS](https://user-images.githubusercontent.com/60748408/160254756-5184317b-bf79-4738-bf9b-238fa1abf3a6.png)
+
